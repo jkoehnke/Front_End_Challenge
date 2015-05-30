@@ -1,9 +1,9 @@
 var http = require('http'),
   fs = require('fs');
 
-process.on('uncaughtException', function(err)
+process.on('uncaughtException', function(error)
   {
-    console.log(err);
+    console.log(error);
   });
 
 var indexPage =
